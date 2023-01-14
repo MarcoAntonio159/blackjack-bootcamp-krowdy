@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: #2f4f30;
+    color: #fff;
+}
+.tittle {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#player-cards,
+#computer-cards {
+    display: flex;
+    height: 240px;
+}
