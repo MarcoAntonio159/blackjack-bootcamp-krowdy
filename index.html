@@ -19,32 +19,34 @@
     <!-- Contenedor de botones -->
     <div class="row mt-2">
         <div class="col text-center">
-            <button id="btnNewGame" class="btn btn-danger">Nuevo juego</button>
-            <button class="btn btn-primary">Pedir carta</button>
-            <button class="btn btn-primary">Detener</button>
+            <button id="btnNuevoJuego" class="btn btn-danger">Nuevo juego</button>
+            <button id="btnPedirCarta" class="btn btn-primary">Pedir carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+            <!-- <button disabled="disabled" id="btnPedirCarta" class="btn btn-primary">Pedir carta</button>
+            <button disabled="disabled" id="btnDetener" class="btn btn-primary">Detener</button> -->
         </div>
     </div>
 
-    <!-- Cartas de Jugador 1 -->
+    <!-- cards de Jugador 1 -->
     <div class="row container">
         <div class="col">
             <h1>Jugador 1 - <small>0</small></h1>
-            <div id="player-cards">
-                <!-- Las cartas del jugador 1 aqui van! -->
+            <div id="player-cards" class="cards">
+                <!-- Las cards del jugador 1 aqui van! -->
             </div>
         </div>
     </div>
 
-    <!-- Cartas de computadora -->
+    <!-- cards de computadora -->
     <div class="row container">
         <div class="col">
             <h1>Computadora - <small>0</small></h1>
-            <div id="computer-cards">
-                <!-- Las cartas del jugador aqui van! -->
+            <div id="computer-cards" class="cards">
+                <!-- Las cards del jugador aqui van! -->
             </div>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 

@@ -3,6 +3,7 @@ body {
     background-color: #2f4f30;
     color: #fff;
 }
+
 .tittle {
     text-align: center;
     background-color: #000;
@@ -15,4 +16,11 @@ body {
 #computer-cards {
     display: flex;
     height: 240px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
 }
