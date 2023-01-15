@@ -14,4 +14,5 @@
         1. Detener el juego.
 
 4. Deplegarlo en github pages. -> Ready
-    [URL AQUI](## [URL AQUI](https://marcoantonio159.github.io/blackjack-bootcamp-krowdy/))
+
+    ## [URL AQUI](https://marcoantonio159.github.io/blackjack-bootcamp-krowdy/)
